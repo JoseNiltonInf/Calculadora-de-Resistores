@@ -1,0 +1,72 @@
+    *{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    body{
+        background-color: rgb(78, 78, 161);
+    }
+    #pai{
+        background-color: white;
+        margin: auto;
+        border-radius: 27px;
+        padding-bottom: 1px;
+        padding-top: 0.2px;
+        width: 65vw;
+        box-sizing: border-box;        
+    }
+    #r{
+        padding-bottom: 15px;
+    }
+    h1{
+        padding-top: 0.1px;
+        color: rgb(46, 46, 46);
+    }
+
+    #c1,#c11, #c111{
+        background-color: maroon;
+    }
+    #c2,#c22, #c222{
+        background-color: red;
+    }
+    #c3,#c33,#c333{
+        background-color: orange;
+    }
+    #c4,#c44,#c444{
+        background-color: yellow;
+    }
+    #c5,#c55,#c555{
+        background-color: green;
+    }
+    #c6,#c66,#c67{
+        background-color: blue;
+    }
+    #c7,#c77,#c777{
+        background-color: rgb(161, 7, 161);
+    }
+    #c8,#c88,#c888{
+        background-color: gray;
+    }
+    #c9,#c99,#c999{
+        background-color: #ffffff;
+    }
+    #preto0,#preto1, #preto2{
+        background-color: rgb(26, 19, 19);
+        color: #ffffff;
+    }
+    #prata1, #prata2{
+        background-color: silver;
+    }
+    #golden1,#golden2{
+        background-color: rgb(224, 169, 30);
+    }
+    #pv1,#pv2,#pv3,#pv4{
+        border: 1.27px solid rgba(32, 32, 189, 0.892);
+        border-radius: 4px;
+        background-color: rgb(255, 247, 247);
+    }
+
+
+
+
+
+

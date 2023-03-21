@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Resistores</title>
+    <link rel="stylesheet" href="c.css">
+</head>
+<body onchange="calcular()">
+    <div id="pai">
+    <h1>Calculadora de Resistores</h1>
+        <p id="p">Selecione as Cores:  
+            <p><select name="" id="pv1">
+                <option value="0" id="preto0">Preto - 0</option>
+                <option value="10" id="c1">Marrom - 1</option>
+                <option value="20" id="c2">Vermelho - 2</option>
+                <option value="30" id="c3">Laranja - 3</option>
+                <option value="40" id="c4">Amarela - 4</option>
+                <option value="50" id="c5">Verde - 5</option>
+                <option value="60" id="c6">Azul - 6</option>
+                <option value="70" id="c7">Violeta - 7</option>
+                <option value="80" id="c8">Cinza- 8</option>
+                <option value="90" id="c9">Branco - 9</option>
+    
+            </select>
+            <select name="" id="pv2">
+                <option value="0" id="preto1">Preto - 0</option>
+                <option value="1" id="c11">Marrom - 1</option>
+                <option value="2" id="c22">Vermelho - 2</option>
+                <option value="3" id="c33">Laranja - 3</option>
+                <option value="4" id="c44">Amarela - 4</option>
+                <option value="5" id="c55">Verde - 5</option>
+                <option value="6" id="c66">Azul - 6</option>
+                <option value="7" id="c77">Violeta - 7</option>
+                <option value="8" id="c88">Cinza- 8</option>
+                <option value="9" id="c99">Branco - 9</option>
+    
+            </select>
+            <select name="" id="pv3">
+                <option value="0.01" id="prata1">Prata - 0,01 Ω</option>
+                <option value="0.1" id="golden1">Dourada - 0,1 Ω</option>
+                <option value="1" id="preto2"> Preto - 1 Ω</option>
+                <option value="10" id="c111">Marrom - 10Ω</option>
+                <option value="100" id="c222">Vermelho - 100 Ω</option>
+                <option value="1000" id="c333">Laranja - 1000 Ω</option>
+                <option value="10000" id="c444">Amarela - 10000 Ω</option>
+                <option value="100000" id="c555">Verde - 100000 Ω</option>
+                <option value="1000000" id="c67"> Azul- 1000000 Ω</option>
+                <option value="10000000" id="c777"> Violeta - 10000000 Ω</option>
+                <option value="100000000" id="c888">Cinza- 100000000 Ω</option>
+                <option value="1000000000">Branco - 1000000000 Ω</option>
+            </select>
+            <select name="" id="pv4">
+                <option value="0.1" id="prata2">Prata  &plusmn; 10%</option>
+                <option value="0.05" id="golden2">Dourada &plusmn; 5% </option>
+            </select></p>
+        </p>
+        <div id="r"></div>
+    </div>
+        <!--
+            Feito por José Nilton Vieira;
+            Curso: 2º Ano Informática 2023;
+            Escola: E.E.E.P. Amélia Figueiredo de Lavor;
+            Professor: Luis Ilderlândio.
+        -->
+    <script src="c.js"></script>
+</body>
+</html>
